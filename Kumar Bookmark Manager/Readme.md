@@ -7,3 +7,5 @@ Kumar Bookmark Manger Features :
 2> Bookmark Adder : you can add new websites to your bookmark list.
 
 3> It has also a feature to delete bookmark from bookmark list.
+
+4> It has also a feature to delete all bookmarks at once.
