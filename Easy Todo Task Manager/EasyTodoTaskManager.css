@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    min-height: 90vh;
+    width: 100vw;
+    
+}
+
+.taskAdder{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    
+}
+.taskAdderInner{
+    display: flex;
+    gap: 10px;
+}
+
+.myTodoList{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    
+}
+button{
+    width: 40%;
+    font-size: 1.5em;
+    background-color: darkorange;
+    color: white;
+}
+button:hover{
+    background-color: red;
+}
+.myTodoListInner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.taskNameLabel{
+    font-size: 1.5em;
+}
+.btnContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 2em;
+}
+.tnl{
+    padding-right: 15px;
+}
+p{
+    font-size: 1.5em;
+}
+body{
+    background-color: darkcyan;
+    color: white;
+}
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

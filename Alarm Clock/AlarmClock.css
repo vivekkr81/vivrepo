@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    color: white;
+    background-color: darkcyan;
+}
+
+header {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2em;
+    
+    
+}
+
+main {
+    display: flex;
+    min-height: 70vh;
+    padding-top: 50px;
+
+}
+
+.alarmAdder {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.alarmAdderInner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+form {
+    font-size: 1.5em;
+    display: flex;
+    gap: 10px;
+}
+
+.alarmCover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 1.2em;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.myAlarms {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 50px;
+    gap: 40px;
+}
+
+.alarmContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.alarmhead{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-style: italic;
+}
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+input{
+    padding-left: 5px;
+}

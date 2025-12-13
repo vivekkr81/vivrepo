@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: darkcyan;
+    color: white;
+    font-size: 2em;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 1.1em;
+    color: white;
+    background-color: red;
+}
+button:hover{
+    background-color: navy;
+}
